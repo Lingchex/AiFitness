@@ -199,20 +199,6 @@ curl -X POST "http://127.0.0.1:9000/api/v1/chat" \
 - 模型：`deepseek-v3`（对话）、`text-embedding-v4`（向量）
 - 上传 PDF 解析后删除本地临时文件，向量持久化在 Chroma
 
-## 提交 Git 时的建议
 
-只提交源码与配置模板，不要提交本地环境、密钥和大文件。
-
-| 不要提交 | 原因 |
-|----------|------|
-| `.env` | API Key 等敏感信息 |
-| `venv/`、`.venv/`、`ai-analysis/env/` | 虚拟环境 |
-| `models/`、`uploads/`、`temp_uploads/` | 大文件与运行时数据 |
-| `Fit/unpackage/` | 构建产物（可按团队规范决定是否忽略） |
-| `__pycache__/`、`*.pyc` | Python 缓存 |
-
-若 `.env` 或含密钥的文件曾误提交，请轮换密钥并用 `git filter-repo` 等工具清理历史。
-
-## 许可证
 
 按项目需要补充 License（如 MIT、Apache-2.0 等）。
