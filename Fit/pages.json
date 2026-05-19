@@ -1,0 +1,64 @@
+{
+	"pages": [
+		{
+			"path": "pages/ai/ai",
+			"style": {
+				"navigationBarTitleText": "AI",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/plan/plan",
+			"style": {
+				"navigationBarTitleText": "计划",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "用户",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/repository",
+			"style": {
+				"navigationBarTitleText": "知识库"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#1890ff",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/ai/ai",
+				"text": "AI",
+				"iconPath": "static/tabbar/ai.png",
+				"selectedIconPath": "static/tabbar/ai-active.png"
+			},
+			{
+				"pagePath": "pages/plan/plan",
+				"text": "计划",
+				"iconPath": "static/tabbar/plan.png",
+				"selectedIconPath": "static/tabbar/plan-active.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "static/tabbar/user-active.png",
+				"selectedIconPath": "static/tabbar/user.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "计划",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "analysis-overlay": "../../components/planing/AnalysisOverlay"
+  }
+}
